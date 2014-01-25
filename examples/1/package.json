@@ -1,0 +1,6 @@
+{
+  "name": "viewjs-node-example",
+  "dependencies": {
+    "viewjs": "0.0.0"
+  }
+}
