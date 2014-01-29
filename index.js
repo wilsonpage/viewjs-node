@@ -3,12 +3,6 @@ define(function(require, exports, module){
 'use strict';
 
 /**
- * Module Dependencies
- */
-
-var serialize = require('viewjs-serialize');
-
-/**
  * Exports
  */
 
@@ -25,7 +19,6 @@ var serialize = require('viewjs-serialize');
  * @public
  */
 exports.install = function(view) {
-  view.install(serialize);
   view.Base.prototype.createElement = fakeElement;
 };
 
